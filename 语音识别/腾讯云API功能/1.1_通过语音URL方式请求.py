@@ -14,7 +14,7 @@ import base64
 #音频 URL 方式
 try:
     #此处<Your SecretId><Your SecretKey>需要替换成客户自己的账号信息
-    cred = credential.Credential("AKIDLSKLzxNoNgnhR0jEyRfcIn7JGyThDNzP", "MUEl25tfDoKfy70ddXIm0FI8iy54nJhq")
+    cred = credential.Credential("Your SecretId", "Your SecretKey")
     httpProfile = HttpProfile()
     httpProfile.endpoint = "asr.tencentcloudapi.com"
     clientProfile = ClientProfile()
