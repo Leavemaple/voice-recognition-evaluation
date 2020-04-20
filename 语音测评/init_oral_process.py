@@ -14,7 +14,7 @@ from transmit_oral_process import transmit
 '''
 try:
     # 实例化一个认证对象，入参需要传入腾讯云账户secretId，secretKey
-    cred = credential.Credential("AKIDxe5GDPX6aonW1G78hyzmLglpeFagr9Vc","A9uRkpfFZpqb6MQEm48xVaTs0ub3GDtK")
+    cred = credential.Credential("Your SecretId", "Your SecretKey")
 
     # 实例化一个http选项，可选的，没有特殊需求可以跳过。
     httpProfile = HttpProfile()
